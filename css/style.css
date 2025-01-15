@@ -47,7 +47,7 @@ body{
 .navbar .navbar-anchor a{
     color: #fff;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin: 0 1.1rem;
 }
 
@@ -79,4 +79,59 @@ body{
 
 #hamburger-menu{
     display: none;
+}
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 72%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+
+    .navbar .navbar-anchor{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background: #fff;
+        height: 100vh;
+        transition: 0.5s linear;
+    }
+
+    .navbar .navbar-anchor a{
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        font-size: 1.7rem 10%;
+    }
+
+    .navbar .navbar-anchor a::after{
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-anchor a:hover::after{
+        transform-origin: 0 0;
+        transform: scaleX(0.2);
+    }
+
+    .navbar .navbar-anchor.active {
+        right: 0;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+        font-size: 65%;
+    }
 }
