@@ -7,3 +7,10 @@ document.querySelector('#hamburger-menu').onclick = () => {
 }
 
 // click outside hamburger menu
+const hamburgerMenu = document.querySelector('#hamburger-menu');
+
+document.addEventListener('click', function(e){
+    if (!hamburgerMenu.contains(e.target) && !navbarAnchor.contains(e.target)) {
+        navbarAnchor.classList.remove('active');
+    }
+})
