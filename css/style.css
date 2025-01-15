@@ -43,3 +43,27 @@ body{
 .navbar .navbar-logo span{
     color: #fff;
 }
+
+.navbar .navbar-anchor a{
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 1.1rem;
+}
+
+.navbar .navbar-anchor a:hover {
+    color: var(--primary);
+}
+
+.navbar .navbar-anchor a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.35rem;
+    border-bottom: 0.1rem solid var(--primary);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.navbar .navbar-anchor a:hover::after{
+    transform: scaleX(0.7);
+}
