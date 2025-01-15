@@ -67,3 +67,16 @@ body{
 .navbar .navbar-anchor a:hover::after{
     transform: scaleX(0.7);
 }
+
+.navbar .navbar-extra a{
+    color: #fff;
+    margin: 0 .5rem;
+}
+
+.navbar .navbar-extra a:hover{
+    color: var(--primary);
+}
+
+#hamburger-menu{
+    display: none;
+}
