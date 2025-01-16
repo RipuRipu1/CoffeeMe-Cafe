@@ -182,7 +182,7 @@ body{
 /* Laptop */
 @media (max-width: 1366px) {
     html {
-        font-size: 85%;
+        font-size: 80%;
     }
 }
 
