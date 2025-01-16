@@ -154,7 +154,7 @@ body{
 }
 
 .about .row .about-img{
-    flex: 1 1 45 rem;
+    flex: 1 1 42 rem;
 }
 
 .about .row .about-img img{
@@ -224,6 +224,27 @@ body{
 
     .navbar .navbar-anchor.active {
         right: 0;
+    }
+
+    .about .row{
+        flex-wrap: wrap;
+    }
+    
+    .about .row .about-img img{
+        height: 24rem;
+        object-fit: cover;
+    }
+
+    .about .row .content{
+        padding: 0;
+    }
+
+    .about .row .content h3{
+        margin-top: 1.5rem;
+    }
+
+    .about .row .content p{
+        font-size: 1rem;
     }
 }
 
