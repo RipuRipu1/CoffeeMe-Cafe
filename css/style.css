@@ -162,6 +162,7 @@ body{
         top: 100%;
         right: -100%;
         background: #fff;
+        width: 20rem;
         height: 100vh;
         transition: 0.5s linear;
     }
