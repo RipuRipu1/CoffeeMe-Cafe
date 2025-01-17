@@ -12,6 +12,10 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--bg);
@@ -270,6 +274,47 @@ body{
     font-size: 1.5rem;
     color: #fff;
     background-color: #463523;
+}
+
+/* Footer */
+footer{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+footer .social{
+    padding: 1rem 0 1rem;
+}
+
+footer .social a{
+    color: #fff;
+    margin: 1rem;
+}
+
+footer .social a:hover,
+footer .links a:hover{
+    color: var(--bg);
+}
+
+footer .links{
+    margin-bottom: 1.5rem;
+}
+
+footer .links a{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.7rem 1rem;
+}
+
+footer .credit{
+    font-size: 1.2rem;
+}
+
+footer .credit a{
+    color: var(--bg);
+    font-weight: bold;
 }
 
 /* Media Queries */
