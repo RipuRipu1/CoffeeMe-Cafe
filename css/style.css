@@ -139,11 +139,12 @@ body{
 
 }
 
-.about{
+.about, .menu{
     padding: 8.35rem 7% 1.2rem;
 }
 
-.about h2{
+.about h2,
+.menu h2{
     font-size: 2.3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -178,11 +179,57 @@ body{
     line-height: 1.5;
 }
 
+/* Menu Section */
+.menu h2{
+    margin-bottom: 1rem;
+}
+.menu h2 span{
+    color: var(--primary);
+}
+
+.menu p{
+    text-align: center;
+    max-width: 25rem;
+    margin: auto;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.menu .row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    margin-top: 3.5rem;
+    justify-content: center;
+}
+
+.menu .row .menu-card{
+    text-align: center;
+}
+
+.menu .row .menu-card img{
+    border-radius: 50%;
+    width: 30%;
+    object-position: center;
+}
+
+.menu .row .menu-card #Americano{
+    width: 50%;
+}
+
+.menu .row .menu-card .menu-card-title{
+    margin: 1.5rem auto 1rem;
+}
+
 /* Media Queries */
 /* Laptop */
 @media (max-width: 1366px) {
     html {
         font-size: 80%;
+    }
+
+    .menu p{
+        font-size: 2.5vh;
     }
 }
 
@@ -244,7 +291,27 @@ body{
     }
 
     .about .row .content p{
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .menu p{
+        font-size: 2.5vh;
+    }
+
+    .menu .row{
+        flex-wrap: wrap;
+    }
+
+    .menu .row .menu-card #Americano{
+        width: 35%;
+    }
+
+    .menu .row .menu-card .menu-card-title{
+        margin: 1rem auto 1rem;
+    }
+
+    .menu .row .menu-card .menu-card-price{
+        padding-bottom: 1rem;
     }
 }
 
@@ -252,5 +319,13 @@ body{
 @media (max-width: 450px) {
     html {
         font-size: 65%;
+    }
+
+    .about .row .content p{
+        font-size: 1.82vh;
+    }
+
+    .menu p{
+        font-size: 1.8vh;
     }
 }
