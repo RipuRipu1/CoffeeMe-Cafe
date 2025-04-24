@@ -1,3 +1,5 @@
+Important Information: CoffeeMe Café is a fictional brand created as part of practice in advertising and marketing through web application.
+
 CoffeeMe Café is a place where you can sit, relax, and enjoy little things in life while take a sip of coffee. This website is actually a static website with Café theme, and its used for our portfolio to showcase our skill and competency in Basic web development knowledge and enhance my ability on this field. Hopefully this project will led me to more opportunity in the future.
 
 Credits for images we use on this website to:
