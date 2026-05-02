@@ -278,10 +278,11 @@ body{
 
 /* Footer */
 footer{
-    background-color: var(--primary);
+    background-color: var(--bg);
     text-align: center;
     padding: 1rem 0;
     margin-top: 3rem;
+    border-top: solid 1px var(--primary);
 }
 
 footer .social{
@@ -313,7 +314,7 @@ footer .credit{
 }
 
 footer .credit a{
-    color: var(--bg);
+    color: var(--primary);
     font-weight: bold;
 }
 
